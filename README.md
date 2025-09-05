@@ -17,19 +17,19 @@ Broader contextual knowledge refers to the interconnected web of facts and infor
 
 
 ## Metrics to be used with the KnowGIC benchmark
-We propose two metrics to evaluate deep editing:
+We utilise two metrics to evaluate deep editing:
 
 (1) Indirect Fact Recovery (IFR),
 
-(2) Connected Knowledge Preservation (CKP).
+(2) Preservation (Pres.).
 
-IFR measures original fact deducibility via KnowGIC implication chains post-edit, and CKP evaluates broader contextual knowledge preservation.
+IFR measures original fact deducibility via KnowGIC implication chains post-edit, and Preservation evaluates broader contextual knowledge preservation.
 
 
 
-## Sample Usage of IFR and CKP
+## Sample Usage of IFR and Preservation
 
-This example shows how **(IFR)** and **(CKP)** are computed after applying a rewrite.
+This example shows how **(IFR)** and **(Pres.)** are computed after applying a rewrite.
 
 ### Example Case
 
@@ -129,7 +129,7 @@ This example shows how **(IFR)** and **(CKP)** are computed after applying a rew
 | Which school is Professor McGonagall headmistress of? | 0.9      | 0.6       |
 | Which house is Ron Weasley in?                        | 0.85     | 0.5       |
 
-**CKP Calculation**
+**Pres. Calculation**
 
 * Ratios:
 
@@ -138,4 +138,4 @@ This example shows how **(IFR)** and **(CKP)** are computed after applying a rew
   * 0.6 / 0.9 = 0.67
   * 0.5 / 0.85 = 0.51
 
-`CKP = (0.78 + 0.94 + 0.67 + 0.51) / 4 = 0.725`
+`Preservation = (0.78 + 0.94 + 0.67 + 0.51) / 4 = 0.725`
