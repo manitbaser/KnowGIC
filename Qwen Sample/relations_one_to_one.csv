@@ -1,0 +1,45 @@
+Entity,Relationship,Attribute
+Ron Weasley,house,Gryffindor
+Ginny Weasley,house,Gryffindor
+Dean Thomas,schoolmate,Harry Potter
+Dean Thomas,schoolmate,Ron Weasley
+Dean Thomas,schoolmate,Hermione Granger
+Neville Longbottom,house,Gryffindor
+Harry Potter,house,Gryffindor
+Ron Weasley,house,Gryffindor
+Neville Longbottom,school,Hogwarts
+Luna Lovegood,school,Hogwarts
+Draco Malfoy,house,Slytherin
+Pansy Parkinson,house,Slytherin
+Fred Weasley,school,Hogwarts
+Fred Weasley,house,Gryffindor
+George Weasley,house,Gryffindor
+Hermione Granger,schoolmate,Ginny Weasley
+Hermione Granger,schoolmate,Seamus Finnigan
+Hermione Granger,schoolmate,Neville Longbottom
+Hermione Granger,schoolmate,Draco Malfoy
+Hermione Granger,schoolmate,Cho Chang
+Hermione Granger,schoolmate,Padma Patil
+Hermione Granger,schoolmate,Luna Lovegood
+Seamus Finnigan,house,Gryffindor
+Harry Potter,schoolmate,Pansy Parkinson
+Padma Patil,house,Ravenclaw
+Ron Weasley,schoolmate,Hermione Granger
+Harry Potter,house,Gryffindor
+Seamus Finnigan,house,Gryffindor
+Harry Potter,house,Gryffindor
+Ron Weasley,house,Gryffindor
+Dean Thomas,house,Gryffindor
+Harry Potter,schoolmate,Dean Thomas
+Pansy Parkinson,schoolmate,Draco Malfoy
+Draco Malfoy,house,Slytherin
+Gryffindor,belongs to,Hogwarts
+Hufflepuff,belongs to,Hogwarts
+Ravenclaw,belongs to,Hogwarts
+Slytherin,belongs to,Hogwarts
+George Weasley,house,Gryffindor house
+Padma Patil,schoolmate,Parvati Patil
+Parvati Patil,house,Gryffindor
+Susan Bones,house,Gryffindor
+Zacharias Smith,schoolmate,Cedric Diggory
+Hermione Granger,house,Gryffindor

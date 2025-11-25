@@ -1,0 +1,96 @@
+beginning_object,ending_object,predicate,statement1,statement2,statement3
+Bill Weasley,Gryffindor,house,Bill Weasley's house is,Bill Weasley belongs to the house,Bill Weasley in the house
+Charlie Weasley,Gryffindor,house,Charlie Weasley's house is,Charlie Weasley belongs to the house,Charlie Weasley in the house
+Dean Thomas,Gryffindor,house,Dean Thomas's house is,Dean Thomas belongs to the house,Dean Thomas in the house
+Dean Thomas,Hogwarts,studied at,Dean Thomas studied at,Dean Thomas's school is,Dean Thomas went to school at
+Draco Malfoy,Slytherin,house,Draco Malfoy's house is,Draco Malfoy belongs to the house,Draco Malfoy in the house
+Draco Malfoy,Hogwarts,studied at,Draco Malfoy studied at,Draco Malfoy's school is,Draco Malfoy went to school at
+Draco Malfoy,McGonagall,was taught Transfiguration by,Draco Malfoy was taught Transfiguration by,Draco Malfoy learned Transfiguration from,Draco Malfoy's teacher in Transfiguration was
+Draco Malfoy,Hagrid,was taught Care of Magical Creatures by,Draco Malfoy was taught Care of Magical Creatures by,Draco Malfoy learned Care of Magical Creatures from,Draco Malfoy's teacher in Care of Magical Creatures was
+Fred Weasley,Gryffindor,house,Fred Weasley's house is,Fred Weasley belongs to the house,Fred Weasley in the house
+George Weasley,Gryffindor,house,George Weasley's house is,George Weasley belongs to the house,George Weasley in the house
+Ginny Weasley,Gryffindor,house,Ginny Weasley's house is,Ginny Weasley belongs to the house,Ginny Weasley in the house
+Ginny Weasley,Hogwarts,studied at,Ginny Weasley studied at,Ginny Weasley's school is,Ginny Weasley went to school at
+Gryffindor,Hogwarts,belongs to,Gryffindor belongs to,Gryffindor is a part of,Gryffindor is in
+Gryffindor,McGonagall,head,Gryffindor's head is,Gryffindor's head of house is,Gryffindor's head teacher is
+Hagrid,Hogwarts,teacher at,Hagrid is a teacher at,Hagrid teaches in the school,Hagrid works as a teacher at
+Hannah Abbott,Hogwarts,studied at,Hannah Abbott studied at,Hannah Abbott's school is,Hannah Abbott went to school at
+Harry Potter,Gryffindor,house,Harry Potter's house is,Harry Potter belongs to the house,Harry Potter in the house
+Harry Potter,Hermione Granger,schoolmate,Harry Potter's schoolmates are,Harry Potter has schoolmates,Harry Potter is schoolmates with
+Harry Potter,Ron Weasley,schoolmate,Harry Potter's schoolmates are,Harry Potter has schoolmates,Harry Potter is schoolmates with
+Harry Potter,Draco Malfoy,schoolmate,Harry Potter's schoolmates are,Harry Potter has schoolmates,Harry Potter is schoolmates with
+Harry Potter,Neville Longbottom,schoolmate,Harry Potter's schoolmates are,Harry Potter has schoolmates,Harry Potter is schoolmates with
+Harry Potter,Luna Lovegood,schoolmate,Harry Potter's schoolmates are,Harry Potter has schoolmates,Harry Potter is schoolmates with
+Harry Potter,Ginny Weasley,schoolmate,Harry Potter's schoolmates are,Harry Potter has schoolmates,Harry Potter is schoolmates with
+Harry Potter,Seamus Finnigan,schoolmate,Harry Potter's schoolmates are,Harry Potter has schoolmates,Harry Potter is schoolmates with
+Harry Potter,Dean Thomas,schoolmate,Harry Potter's schoolmates are,Harry Potter has schoolmates,Harry Potter is schoolmates with
+Harry Potter,Parvati Patil,schoolmate,Harry Potter's schoolmates are,Harry Potter has schoolmates,Harry Potter is schoolmates with
+Harry Potter,Lavender Brown,schoolmate,Harry Potter's schoolmates are,Harry Potter has schoolmates,Harry Potter is schoolmates with
+Harry Potter,Hogwarts,studied at,Harry Potter studied at,Harry Potter's school is,Harry Potter went to school at
+Harry Potter,McGonagall,was taught Transfiguration by,Harry Potter was taught Transfiguration by,Harry Potter learned Transfiguration from,Harry Potter's teacher in Transfiguration was
+Harry Potter,Hagrid,was taught Care of Magical Creatures by,Harry Potter was taught Care of Magical Creatures by,Harry Potter learned Care of Magical Creatures from,Harry Potter's teacher in Care of Magical Creatures was
+Harry Potter,Snape,was taught Defense Against the Dark Arts by,Harry Potter was taught Defense Against the Dark Arts by,Harry Potter learned Defense Against the Dark Arts from,Harry Potter's teacher in Defense Against the Dark Arts was
+Harry Potter,Quirrell,was taught Defense Against the Dark Arts by,Harry Potter was taught Defense Against the Dark Arts by,Harry Potter learned Defense Against the Dark Arts from,Harry Potter's teacher in Defense Against the Dark Arts was
+Harry Potter,Lockhart,was taught Defense Against the Dark Arts by,Harry Potter was taught Defense Against the Dark Arts by,Harry Potter learned Defense Against the Dark Arts from,Harry Potter's teacher in Defense Against the Dark Arts was
+Harry Potter,Lupin,was taught Defense Against the Dark Arts by,Harry Potter was taught Defense Against the Dark Arts by,Harry Potter learned Defense Against the Dark Arts from,Harry Potter's teacher in Defense Against the Dark Arts was
+Harry Potter,Moody,was taught Defense Against the Dark Arts by,Harry Potter was taught Defense Against the Dark Arts by,Harry Potter learned Defense Against the Dark Arts from,Harry Potter's teacher in Defense Against the Dark Arts was
+Harry Potter,Umbridge,was taught Defense Against the Dark Arts by,Harry Potter was taught Defense Against the Dark Arts by,Harry Potter learned Defense Against the Dark Arts from,Harry Potter's teacher in Defense Against the Dark Arts was
+Hermione Granger,Gryffindor,house,Hermione Granger's house is,Hermione Granger belongs to the house,Hermione Granger in the house
+Hermione Granger,Hogwarts,studied at,Hermione Granger studied at,Hermione Granger's school is,Hermione Granger went to school at
+Hermione Granger,Ron Weasley,schoolmate,Hermione Granger's schoolmates are,Hermione Granger has schoolmates,Hermione Granger is schoolmates with
+Hermione Granger,McGonagall,was taught Transfiguration by,Hermione Granger was taught Transfiguration by,Hermione Granger learned Transfiguration from,Hermione Granger's teacher in Transfiguration was
+Hermione Granger,Hagrid,was taught Care of Magical Creatures by,Hermione Granger was taught Care of Magical Creatures by,Hermione Granger learned Care of Magical Creatures from,Hermione Granger's teacher in Care of Magical Creatures was
+Hermione Granger,Snape,was taught Defense Against the Dark Arts by,Hermione Granger was taught Defense Against the Dark Arts by,Hermione Granger learned Defense Against the Dark Arts from,Hermione Granger's teacher in Defense Against the Dark Arts was
+Hermione Granger,Quirrell,was taught Defense Against the Dark Arts by,Hermione Granger was taught Defense Against the Dark Arts by,Hermione Granger learned Defense Against the Dark Arts from,Hermione Granger's teacher in Defense Against the Dark Arts was
+Hermione Granger,Lockhart,was taught Defense Against the Dark Arts by,Hermione Granger was taught Defense Against the Dark Arts by,Hermione Granger learned Defense Against the Dark Arts from,Hermione Granger's teacher in Defense Against the Dark Arts was
+Hermione Granger,Lupin,was taught Defense Against the Dark Arts by,Hermione Granger was taught Defense Against the Dark Arts by,Hermione Granger learned Defense Against the Dark Arts from,Hermione Granger's teacher in Defense Against the Dark Arts was
+Hermione Granger,Moody,was taught Defense Against the Dark Arts by,Hermione Granger was taught Defense Against the Dark Arts by,Hermione Granger learned Defense Against the Dark Arts from,Hermione Granger's teacher in Defense Against the Dark Arts was
+Hermione Granger,Umbridge,was taught Defense Against the Dark Arts by,Hermione Granger was taught Defense Against the Dark Arts by,Hermione Granger learned Defense Against the Dark Arts from,Hermione Granger's teacher in Defense Against the Dark Arts was
+Hufflepuff,Hogwarts,belongs to,Hufflepuff belongs to,Hufflepuff is a part of,Hufflepuff is in
+Hufflepuff,Sprout,head,Hufflepuff's head is,Hufflepuff's head of house is,Hufflepuff's head teacher is
+Lavender Brown,Gryffindor,house,Lavender Brown's house is,Lavender Brown belongs to the house,Lavender Brown in the house
+Lavender Brown,Hogwarts,studied at,Lavender Brown studied at,Lavender Brown's school is,Lavender Brown went to school at
+Luna Lovegood,Ravenclaw,house,Luna Lovegood's house is,Luna Lovegood belongs to the house,Luna Lovegood in the house
+Luna Lovegood,Hogwarts,studied at,Luna Lovegood studied at,Luna Lovegood's school is,Luna Lovegood went to school at
+Luna Lovegood,Hagrid,was taught Care of Magical Creatures by,Luna Lovegood was taught Care of Magical Creatures by,Luna Lovegood learned Care of Magical Creatures from,Luna Lovegood's teacher in Care of Magical Creatures was
+Luna Lovegood,Snape,was taught Defense Against the Dark Arts by,Luna Lovegood was taught Defense Against the Dark Arts by,Luna Lovegood learned Defense Against the Dark Arts from,Luna Lovegood's teacher in Defense Against the Dark Arts was
+Luna Lovegood,Quirrell,was taught Defense Against the Dark Arts by,Luna Lovegood was taught Defense Against the Dark Arts by,Luna Lovegood learned Defense Against the Dark Arts from,Luna Lovegood's teacher in Defense Against the Dark Arts was
+Luna Lovegood,Lockhart,was taught Defense Against the Dark Arts by,Luna Lovegood was taught Defense Against the Dark Arts by,Luna Lovegood learned Defense Against the Dark Arts from,Luna Lovegood's teacher in Defense Against the Dark Arts was
+Luna Lovegood,Lupin,was taught Defense Against the Dark Arts by,Luna Lovegood was taught Defense Against the Dark Arts by,Luna Lovegood learned Defense Against the Dark Arts from,Luna Lovegood's teacher in Defense Against the Dark Arts was
+Luna Lovegood,Moody,was taught Defense Against the Dark Arts by,Luna Lovegood was taught Defense Against the Dark Arts by,Luna Lovegood learned Defense Against the Dark Arts from,Luna Lovegood's teacher in Defense Against the Dark Arts was
+Luna Lovegood,Umbridge,was taught Defense Against the Dark Arts by,Luna Lovegood was taught Defense Against the Dark Arts by,Luna Lovegood learned Defense Against the Dark Arts from,Luna Lovegood's teacher in Defense Against the Dark Arts was
+McGonagall,Gryffindor,head of house,McGonagall is the head of the house of,McGonagall is the head of,McGonagall serves as the head of house of
+McGonagall,Hogwarts,teacher at,McGonagall is a teacher at,McGonagall teaches in the school,McGonagall works as a teacher at
+Sprout,Hufflepuff,head of house,Sprout is the head of the house of,Sprout is the head of,Sprout serves as the head of house of
+Sprout,Hogwarts,teacher at,Sprout is a teacher at,Sprout teaches in the school,Sprout works as a teacher at
+Neville Longbottom,Gryffindor,house,Neville Longbottom's house is,Neville Longbottom belongs to the house,Neville Longbottom in the house
+Neville Longbottom,Hogwarts,studied at,Neville Longbottom studied at,Neville Longbottom's school is,Neville Longbottom went to school at
+Parvati Patil,Gryffindor,house,Parvati Patil's house is,Parvati Patil belongs to the house,Parvati Patil in the house
+Parvati Patil,Hogwarts,studied at,Parvati Patil studied at,Parvati Patil's school is,Parvati Patil went to school at
+Lockhart,Hogwarts,teacher at,Lockhart is a teacher at,Lockhart teaches in the school,Lockhart works as a teacher at
+Lupin,Hogwarts,teacher at,Lupin is a teacher at,Lupin teaches in the school,Lupin works as a teacher at
+Moody,Hogwarts,teacher at,Moody is a teacher at,Moody teaches in the school,Moody works as a teacher at
+Quirrell,Hogwarts,teacher at,Quirrell is a teacher at,Quirrell teaches in the school,Quirrell works as a teacher at
+Umbridge,Hogwarts,teacher at,Umbridge is a teacher at,Umbridge teaches in the school,Umbridge works as a teacher at
+Ravenclaw,Hogwarts,belongs to,Ravenclaw belongs to,Ravenclaw is a part of,Ravenclaw is in
+Ravenclaw,Flitwick,head,Ravenclaw's head is,Ravenclaw's head of house is,Ravenclaw's head teacher is
+Flitwick,Hogwarts,teacher at,Flitwick is a teacher at,Flitwick teaches in the school,Flitwick works as a teacher at
+Flitwick,Ravenclaw,head of house,Flitwick is the head of the house of,Flitwick is the head of,Flitwick serves as the head of house of
+Ron Weasley,Gryffindor,house,Ron Weasley's house is,Ron Weasley belongs to the house,Ron Weasley in the house
+Ron Weasley,Hogwarts,studied at,Ron Weasley studied at,Ron Weasley's school is,Ron Weasley went to school at
+Ron Weasley,Hermione Granger,schoolmate,Ron Weasley's schoolmates are,Ron Weasley has schoolmates,Ron Weasley is schoolmates with
+Ron Weasley,McGonagall,was taught Transfiguration by,Ron Weasley was taught Transfiguration by,Ron Weasley learned Transfiguration from,Ron Weasley's teacher in Transfiguration was
+Ron Weasley,Hagrid,was taught Care of Magical Creatures by,Ron Weasley was taught Care of Magical Creatures by,Ron Weasley learned Care of Magical Creatures from,Ron Weasley's teacher in Care of Magical Creatures was
+Ron Weasley,Snape,was taught Defense Against the Dark Arts by,Ron Weasley was taught Defense Against the Dark Arts by,Ron Weasley learned Defense Against the Dark Arts from,Ron Weasley's teacher in Defense Against the Dark Arts was
+Ron Weasley,Quirrell,was taught Defense Against the Dark Arts by,Ron Weasley was taught Defense Against the Dark Arts by,Ron Weasley learned Defense Against the Dark Arts from,Ron Weasley's teacher in Defense Against the Dark Arts was
+Ron Weasley,Lockhart,was taught Defense Against the Dark Arts by,Ron Weasley was taught Defense Against the Dark Arts by,Ron Weasley learned Defense Against the Dark Arts from,Ron Weasley's teacher in Defense Against the Dark Arts was
+Ron Weasley,Lupin,was taught Defense Against the Dark Arts by,Ron Weasley was taught Defense Against the Dark Arts by,Ron Weasley learned Defense Against the Dark Arts from,Ron Weasley's teacher in Defense Against the Dark Arts was
+Ron Weasley,Moody,was taught Defense Against the Dark Arts by,Ron Weasley was taught Defense Against the Dark Arts by,Ron Weasley learned Defense Against the Dark Arts from,Ron Weasley's teacher in Defense Against the Dark Arts was
+Ron Weasley,Umbridge,was taught Defense Against the Dark Arts by,Ron Weasley was taught Defense Against the Dark Arts by,Ron Weasley learned Defense Against the Dark Arts from,Ron Weasley's teacher in Defense Against the Dark Arts was
+Seamus Finnigan,Gryffindor,house,Seamus Finnigan's house is,Seamus Finnigan belongs to the house,Seamus Finnigan in the house
+Seamus Finnigan,Hogwarts,studied at,Seamus Finnigan studied at,Seamus Finnigan's school is,Seamus Finnigan went to school at
+Snape,Slytherin,head of house,Snape is the head of the house of,Snape is the head of,Snape serves as the head of house of
+Snape,Hogwarts,teacher at,Snape is a teacher at,Snape teaches in the school,Snape works as a teacher at
+Slytherin,Hogwarts,belongs to,Slytherin belongs to,Slytherin is a part of,Slytherin is in
+Slytherin,Snape,head,Slytherin's head is,Slytherin's head of house is,Slytherin's head teacher is
+Susan Bones,Hogwarts,studied at,Susan Bones studied at,Susan Bones's school is,Susan Bones went to school at

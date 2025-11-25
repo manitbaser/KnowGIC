@@ -11,7 +11,7 @@ Broader contextual knowledge refers to the interconnected web of facts and infor
 
 
 <p align="center">
-  <img width="541" alt="Subgraph showing deducibility of Harry Potter studying at Hogwarts" src="https://github.com/user-attachments/assets/73d566ec-68d1-4a2c-afbe-0e1faccf70cd" />
+  <img width="541" alt="Subgraph showing deducibility of Harry Potter studying at Hogwarts" src="Images/458156350-73d566ec-68d1-4a2c-afbe-0e1faccf70cd.png" />
 </p>
 <p align="center"><strong>Figure 1:</strong> A subgraph showing deducibility of the fact <em>"Harry Potter studied at Hogwarts"</em> via connected relationships. Nodes represent entities and edges denote relationships. <span style="color:green">Green solid edges</span>, part of broader contextual knowledge, should be preserved, while <span style="color:red">red dashed edges</span>, tied to the primary subject, should be edited.</p>
 

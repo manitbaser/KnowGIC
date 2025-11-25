@@ -1,0 +1,131 @@
+Cedric Diggory:
+  house:
+  - Gryffindor
+  studied at:
+  - Hogwarts
+Dean Thomas:
+  house:
+  - Gryffindor
+  schoolmate:
+  - Harry Potter
+  - Ron Weasley
+  - Hermione Granger
+  studied at:
+  - Hogwarts
+Draco Malfoy:
+  house:
+  - Slytherin
+  studied at:
+  - Hogwarts
+Fred Weasley:
+  house:
+  - Gryffindor
+  studied at:
+  - Hogwarts
+George Weasley:
+  house:
+  - Gryffindor
+  studied at:
+  - Hogwarts
+Ginny Weasley:
+  house:
+  - Gryffindor
+  studied at:
+  - Hogwarts
+Gryffindor:
+  belongs to:
+  - Hogwarts
+Harry Potter:
+  house:
+  - Gryffindor
+  schoolmate:
+  - Ron Weasley
+  - Hermione Granger
+  - Ginny Weasley
+  - Seamus Finnigan
+  - Dean Thomas
+  - Neville Longbottom
+  - Luna Lovegood
+  - Draco Malfoy
+  - Pansy Parkinson
+  - Cedric Diggory
+  - Fred Weasley
+  - George Weasley
+  - Padma Patil
+  - Susan Bones
+  - Zacharias Smith
+  studied at:
+  - Hogwarts
+Hermione Granger:
+  house:
+  - Gryffindor
+  schoolmate:
+  - Ron Weasley
+  - Ginny Weasley
+  - Seamus Finnigan
+  - Neville Longbottom
+  - Draco Malfoy
+  - Cho Chang
+  - Padma Patil
+  - Luna Lovegood
+  studied at:
+  - Hogwarts
+Hufflepuff:
+  belongs to:
+  - Hogwarts
+Luna Lovegood:
+  studied at:
+  - Hogwarts
+Neville Longbottom:
+  house:
+  - Gryffindor
+  studied at:
+  - Hogwarts
+Padma Patil:
+  house:
+  - Gryffindor
+  - Ravenclaw
+  schoolmate:
+  - Parvati Patil
+  studied at:
+  - Hogwarts
+Pansy Parkinson:
+  house:
+  - Slytherin
+  schoolmate:
+  - Draco Malfoy
+  studied at:
+  - Hogwarts
+Parvati Patil:
+  house:
+  - Gryffindor
+Ravenclaw:
+  belongs to:
+  - Hogwarts
+Ron Weasley:
+  house:
+  - Gryffindor
+  schoolmate:
+  - Hermione Granger
+  studied at:
+  - Hogwarts
+Seamus Finnigan:
+  house:
+  - Gryffindor
+  studied at:
+  - Hogwarts
+Slytherin:
+  belongs to:
+  - Hogwarts
+Susan Bones:
+  house:
+  - Hufflepuff
+  studied at:
+  - Hogwarts
+Zacharias Smith:
+  house:
+  - Hufflepuff
+  schoolmate:
+  - Cedric Diggory
+  studied at:
+  - Hogwarts

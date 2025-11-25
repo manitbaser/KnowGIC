@@ -1,0 +1,547 @@
+Attributes,Relationships
+Harry Potter->Hogwarts,studied at
+Harry Potter->Ron Weasley,schoolmate
+Harry Potter->Hermione Granger,schoolmate
+Harry Potter->Ginny Weasley,schoolmate
+Harry Potter->Seamus Finnigan,schoolmate
+Harry Potter->Dean Thomas,schoolmate
+Harry Potter->Neville Longbottom,schoolmate
+Harry Potter->Luna Lovegood,schoolmate
+Harry Potter->Draco Malfoy,schoolmate
+Harry Potter->Pansy Parkinson,schoolmate
+Harry Potter->Cedric Diggory,schoolmate
+Harry Potter->Fred Weasley,schoolmate
+Harry Potter->George Weasley,schoolmate
+Harry Potter->Padma Patil,schoolmate
+Harry Potter->Susan Bones,schoolmate
+Harry Potter->Zacharias Smith,schoolmate
+Ron Weasley->Hogwarts,studied at
+Hermione Granger->Hogwarts,studied at
+Ginny Weasley->Hogwarts,studied at
+Seamus Finnigan->Hogwarts,studied at
+Dean Thomas->Hogwarts,studied at
+Neville Longbottom->Hogwarts,studied at
+Luna Lovegood->Hogwarts,studied at
+Draco Malfoy->Hogwarts,studied at
+Pansy Parkinson->Hogwarts,studied at
+Cedric Diggory->Hogwarts,studied at
+Fred Weasley->Hogwarts,studied at
+George Weasley->Hogwarts,studied at
+Padma Patil->Hogwarts,studied at
+Susan Bones->Hogwarts,studied at
+Zacharias Smith->Hogwarts,studied at
+Hermione Granger->Ron Weasley,schoolmate
+Seamus Finnigan->Gryffindor,house
+Dean Thomas->Gryffindor,house
+Neville Longbottom->Gryffindor,house
+Pansy Parkinson->Slytherin,house
+Cedric Diggory->Gryffindor,house
+Padma Patil->Gryffindor,house
+Zacharias Smith->Hufflepuff,house
+Harry Potter->Ron Weasley->Hogwarts,schoolmate->studied at
+Harry Potter->Hermione Granger->Hogwarts,schoolmate->studied at
+Harry Potter->Hermione Granger->Ron Weasley,schoolmate->schoolmate
+Harry Potter->Hermione Granger->Ron Weasley->Hogwarts,schoolmate->schoolmate->studied at
+Harry Potter->Ginny Weasley->Hogwarts,schoolmate->studied at
+Harry Potter->Seamus Finnigan->Hogwarts,schoolmate->studied at
+Harry Potter->Seamus Finnigan->Gryffindor,schoolmate->house
+Harry Potter->Dean Thomas->Hogwarts,schoolmate->studied at
+Harry Potter->Dean Thomas->Gryffindor,schoolmate->house
+Harry Potter->Neville Longbottom->Hogwarts,schoolmate->studied at
+Harry Potter->Neville Longbottom->Gryffindor,schoolmate->house
+Harry Potter->Luna Lovegood->Hogwarts,schoolmate->studied at
+Harry Potter->Draco Malfoy->Hogwarts,schoolmate->studied at
+Harry Potter->Pansy Parkinson->Hogwarts,schoolmate->studied at
+Harry Potter->Pansy Parkinson->Slytherin,schoolmate->house
+Harry Potter->Cedric Diggory->Hogwarts,schoolmate->studied at
+Harry Potter->Cedric Diggory->Gryffindor,schoolmate->house
+Harry Potter->Fred Weasley->Hogwarts,schoolmate->studied at
+Harry Potter->George Weasley->Hogwarts,schoolmate->studied at
+Harry Potter->Padma Patil->Hogwarts,schoolmate->studied at
+Harry Potter->Padma Patil->Gryffindor,schoolmate->house
+Harry Potter->Susan Bones->Hogwarts,schoolmate->studied at
+Harry Potter->Zacharias Smith->Hogwarts,schoolmate->studied at
+Harry Potter->Zacharias Smith->Hufflepuff,schoolmate->house
+Hermione Granger->Ron Weasley->Hogwarts,schoolmate->studied at
+Ron Weasley->Gryffindor,house
+Ginny Weasley->Gryffindor,house
+Dean Thomas->Harry Potter,schoolmate
+Dean Thomas->Ron Weasley,schoolmate
+Dean Thomas->Hermione Granger,schoolmate
+Harry Potter->Gryffindor,house
+Draco Malfoy->Slytherin,house
+Fred Weasley->Gryffindor,house
+George Weasley->Gryffindor,house
+Hermione Granger->Ginny Weasley,schoolmate
+Hermione Granger->Seamus Finnigan,schoolmate
+Hermione Granger->Neville Longbottom,schoolmate
+Hermione Granger->Draco Malfoy,schoolmate
+Hermione Granger->Cho Chang,schoolmate
+Hermione Granger->Padma Patil,schoolmate
+Hermione Granger->Luna Lovegood,schoolmate
+Padma Patil->Ravenclaw,house
+Ron Weasley->Hermione Granger,schoolmate
+Pansy Parkinson->Draco Malfoy,schoolmate
+Gryffindor->Hogwarts,belongs to
+Hufflepuff->Hogwarts,belongs to
+Ravenclaw->Hogwarts,belongs to
+Slytherin->Hogwarts,belongs to
+George Weasley->Gryffindor house,house
+Padma Patil->Parvati Patil,schoolmate
+Parvati Patil->Gryffindor,house
+Susan Bones->Gryffindor,house
+Zacharias Smith->Cedric Diggory,schoolmate
+Hermione Granger->Gryffindor,house
+Harry Potter->Ron Weasley->Gryffindor,schoolmate->house
+Harry Potter->Ron Weasley->Gryffindor->Hogwarts,schoolmate->house->belongs to
+Harry Potter->Ron Weasley->Hermione Granger,schoolmate->schoolmate
+Harry Potter->Ron Weasley->Hermione Granger->Hogwarts,schoolmate->schoolmate->studied at
+Harry Potter->Ron Weasley->Hermione Granger->Ginny Weasley,schoolmate->schoolmate->schoolmate
+Harry Potter->Ron Weasley->Hermione Granger->Ginny Weasley->Hogwarts,schoolmate->schoolmate->schoolmate->studied at
+Harry Potter->Ron Weasley->Hermione Granger->Ginny Weasley->Gryffindor,schoolmate->schoolmate->schoolmate->house
+Harry Potter->Ron Weasley->Hermione Granger->Ginny Weasley->Gryffindor->Hogwarts,schoolmate->schoolmate->schoolmate->house->belongs to
+Harry Potter->Ron Weasley->Hermione Granger->Seamus Finnigan,schoolmate->schoolmate->schoolmate
+Harry Potter->Ron Weasley->Hermione Granger->Seamus Finnigan->Hogwarts,schoolmate->schoolmate->schoolmate->studied at
+Harry Potter->Ron Weasley->Hermione Granger->Seamus Finnigan->Gryffindor,schoolmate->schoolmate->schoolmate->house
+Harry Potter->Ron Weasley->Hermione Granger->Seamus Finnigan->Gryffindor->Hogwarts,schoolmate->schoolmate->schoolmate->house->belongs to
+Harry Potter->Ron Weasley->Hermione Granger->Neville Longbottom,schoolmate->schoolmate->schoolmate
+Harry Potter->Ron Weasley->Hermione Granger->Neville Longbottom->Hogwarts,schoolmate->schoolmate->schoolmate->studied at
+Harry Potter->Ron Weasley->Hermione Granger->Neville Longbottom->Gryffindor,schoolmate->schoolmate->schoolmate->house
+Harry Potter->Ron Weasley->Hermione Granger->Neville Longbottom->Gryffindor->Hogwarts,schoolmate->schoolmate->schoolmate->house->belongs to
+Harry Potter->Ron Weasley->Hermione Granger->Draco Malfoy,schoolmate->schoolmate->schoolmate
+Harry Potter->Ron Weasley->Hermione Granger->Draco Malfoy->Hogwarts,schoolmate->schoolmate->schoolmate->studied at
+Harry Potter->Ron Weasley->Hermione Granger->Draco Malfoy->Slytherin,schoolmate->schoolmate->schoolmate->house
+Harry Potter->Ron Weasley->Hermione Granger->Draco Malfoy->Slytherin->Hogwarts,schoolmate->schoolmate->schoolmate->house->belongs to
+Harry Potter->Ron Weasley->Hermione Granger->Cho Chang,schoolmate->schoolmate->schoolmate
+Harry Potter->Ron Weasley->Hermione Granger->Padma Patil,schoolmate->schoolmate->schoolmate
+Harry Potter->Ron Weasley->Hermione Granger->Padma Patil->Hogwarts,schoolmate->schoolmate->schoolmate->studied at
+Harry Potter->Ron Weasley->Hermione Granger->Padma Patil->Gryffindor,schoolmate->schoolmate->schoolmate->house
+Harry Potter->Ron Weasley->Hermione Granger->Padma Patil->Gryffindor->Hogwarts,schoolmate->schoolmate->schoolmate->house->belongs to
+Harry Potter->Ron Weasley->Hermione Granger->Padma Patil->Ravenclaw,schoolmate->schoolmate->schoolmate->house
+Harry Potter->Ron Weasley->Hermione Granger->Padma Patil->Ravenclaw->Hogwarts,schoolmate->schoolmate->schoolmate->house->belongs to
+Harry Potter->Ron Weasley->Hermione Granger->Padma Patil->Parvati Patil,schoolmate->schoolmate->schoolmate->schoolmate
+Harry Potter->Ron Weasley->Hermione Granger->Padma Patil->Parvati Patil->Gryffindor,schoolmate->schoolmate->schoolmate->schoolmate->house
+Harry Potter->Ron Weasley->Hermione Granger->Padma Patil->Parvati Patil->Gryffindor->Hogwarts,schoolmate->schoolmate->schoolmate->schoolmate->house->belongs to
+Harry Potter->Ron Weasley->Hermione Granger->Luna Lovegood,schoolmate->schoolmate->schoolmate
+Harry Potter->Ron Weasley->Hermione Granger->Luna Lovegood->Hogwarts,schoolmate->schoolmate->schoolmate->studied at
+Harry Potter->Ron Weasley->Hermione Granger->Gryffindor,schoolmate->schoolmate->house
+Harry Potter->Ron Weasley->Hermione Granger->Gryffindor->Hogwarts,schoolmate->schoolmate->house->belongs to
+Harry Potter->Hermione Granger->Ron Weasley->Gryffindor,schoolmate->schoolmate->house
+Harry Potter->Hermione Granger->Ron Weasley->Gryffindor->Hogwarts,schoolmate->schoolmate->house->belongs to
+Harry Potter->Hermione Granger->Ginny Weasley,schoolmate->schoolmate
+Harry Potter->Hermione Granger->Ginny Weasley->Hogwarts,schoolmate->schoolmate->studied at
+Harry Potter->Hermione Granger->Ginny Weasley->Gryffindor,schoolmate->schoolmate->house
+Harry Potter->Hermione Granger->Ginny Weasley->Gryffindor->Hogwarts,schoolmate->schoolmate->house->belongs to
+Harry Potter->Hermione Granger->Seamus Finnigan,schoolmate->schoolmate
+Harry Potter->Hermione Granger->Seamus Finnigan->Hogwarts,schoolmate->schoolmate->studied at
+Harry Potter->Hermione Granger->Seamus Finnigan->Gryffindor,schoolmate->schoolmate->house
+Harry Potter->Hermione Granger->Seamus Finnigan->Gryffindor->Hogwarts,schoolmate->schoolmate->house->belongs to
+Harry Potter->Hermione Granger->Neville Longbottom,schoolmate->schoolmate
+Harry Potter->Hermione Granger->Neville Longbottom->Hogwarts,schoolmate->schoolmate->studied at
+Harry Potter->Hermione Granger->Neville Longbottom->Gryffindor,schoolmate->schoolmate->house
+Harry Potter->Hermione Granger->Neville Longbottom->Gryffindor->Hogwarts,schoolmate->schoolmate->house->belongs to
+Harry Potter->Hermione Granger->Draco Malfoy,schoolmate->schoolmate
+Harry Potter->Hermione Granger->Draco Malfoy->Hogwarts,schoolmate->schoolmate->studied at
+Harry Potter->Hermione Granger->Draco Malfoy->Slytherin,schoolmate->schoolmate->house
+Harry Potter->Hermione Granger->Draco Malfoy->Slytherin->Hogwarts,schoolmate->schoolmate->house->belongs to
+Harry Potter->Hermione Granger->Cho Chang,schoolmate->schoolmate
+Harry Potter->Hermione Granger->Padma Patil,schoolmate->schoolmate
+Harry Potter->Hermione Granger->Padma Patil->Hogwarts,schoolmate->schoolmate->studied at
+Harry Potter->Hermione Granger->Padma Patil->Gryffindor,schoolmate->schoolmate->house
+Harry Potter->Hermione Granger->Padma Patil->Gryffindor->Hogwarts,schoolmate->schoolmate->house->belongs to
+Harry Potter->Hermione Granger->Padma Patil->Ravenclaw,schoolmate->schoolmate->house
+Harry Potter->Hermione Granger->Padma Patil->Ravenclaw->Hogwarts,schoolmate->schoolmate->house->belongs to
+Harry Potter->Hermione Granger->Padma Patil->Parvati Patil,schoolmate->schoolmate->schoolmate
+Harry Potter->Hermione Granger->Padma Patil->Parvati Patil->Gryffindor,schoolmate->schoolmate->schoolmate->house
+Harry Potter->Hermione Granger->Padma Patil->Parvati Patil->Gryffindor->Hogwarts,schoolmate->schoolmate->schoolmate->house->belongs to
+Harry Potter->Hermione Granger->Luna Lovegood,schoolmate->schoolmate
+Harry Potter->Hermione Granger->Luna Lovegood->Hogwarts,schoolmate->schoolmate->studied at
+Harry Potter->Hermione Granger->Gryffindor,schoolmate->house
+Harry Potter->Hermione Granger->Gryffindor->Hogwarts,schoolmate->house->belongs to
+Harry Potter->Ginny Weasley->Gryffindor,schoolmate->house
+Harry Potter->Ginny Weasley->Gryffindor->Hogwarts,schoolmate->house->belongs to
+Harry Potter->Seamus Finnigan->Gryffindor->Hogwarts,schoolmate->house->belongs to
+Harry Potter->Dean Thomas->Gryffindor->Hogwarts,schoolmate->house->belongs to
+Harry Potter->Dean Thomas->Ron Weasley,schoolmate->schoolmate
+Harry Potter->Dean Thomas->Ron Weasley->Hogwarts,schoolmate->schoolmate->studied at
+Harry Potter->Dean Thomas->Ron Weasley->Gryffindor,schoolmate->schoolmate->house
+Harry Potter->Dean Thomas->Ron Weasley->Gryffindor->Hogwarts,schoolmate->schoolmate->house->belongs to
+Harry Potter->Dean Thomas->Ron Weasley->Hermione Granger,schoolmate->schoolmate->schoolmate
+Harry Potter->Dean Thomas->Ron Weasley->Hermione Granger->Hogwarts,schoolmate->schoolmate->schoolmate->studied at
+Harry Potter->Dean Thomas->Ron Weasley->Hermione Granger->Ginny Weasley,schoolmate->schoolmate->schoolmate->schoolmate
+Harry Potter->Dean Thomas->Ron Weasley->Hermione Granger->Ginny Weasley->Hogwarts,schoolmate->schoolmate->schoolmate->schoolmate->studied at
+Harry Potter->Dean Thomas->Ron Weasley->Hermione Granger->Ginny Weasley->Gryffindor,schoolmate->schoolmate->schoolmate->schoolmate->house
+Harry Potter->Dean Thomas->Ron Weasley->Hermione Granger->Ginny Weasley->Gryffindor->Hogwarts,schoolmate->schoolmate->schoolmate->schoolmate->house->belongs to
+Harry Potter->Dean Thomas->Ron Weasley->Hermione Granger->Seamus Finnigan,schoolmate->schoolmate->schoolmate->schoolmate
+Harry Potter->Dean Thomas->Ron Weasley->Hermione Granger->Seamus Finnigan->Hogwarts,schoolmate->schoolmate->schoolmate->schoolmate->studied at
+Harry Potter->Dean Thomas->Ron Weasley->Hermione Granger->Seamus Finnigan->Gryffindor,schoolmate->schoolmate->schoolmate->schoolmate->house
+Harry Potter->Dean Thomas->Ron Weasley->Hermione Granger->Seamus Finnigan->Gryffindor->Hogwarts,schoolmate->schoolmate->schoolmate->schoolmate->house->belongs to
+Harry Potter->Dean Thomas->Ron Weasley->Hermione Granger->Neville Longbottom,schoolmate->schoolmate->schoolmate->schoolmate
+Harry Potter->Dean Thomas->Ron Weasley->Hermione Granger->Neville Longbottom->Hogwarts,schoolmate->schoolmate->schoolmate->schoolmate->studied at
+Harry Potter->Dean Thomas->Ron Weasley->Hermione Granger->Neville Longbottom->Gryffindor,schoolmate->schoolmate->schoolmate->schoolmate->house
+Harry Potter->Dean Thomas->Ron Weasley->Hermione Granger->Neville Longbottom->Gryffindor->Hogwarts,schoolmate->schoolmate->schoolmate->schoolmate->house->belongs to
+Harry Potter->Dean Thomas->Ron Weasley->Hermione Granger->Draco Malfoy,schoolmate->schoolmate->schoolmate->schoolmate
+Harry Potter->Dean Thomas->Ron Weasley->Hermione Granger->Draco Malfoy->Hogwarts,schoolmate->schoolmate->schoolmate->schoolmate->studied at
+Harry Potter->Dean Thomas->Ron Weasley->Hermione Granger->Draco Malfoy->Slytherin,schoolmate->schoolmate->schoolmate->schoolmate->house
+Harry Potter->Dean Thomas->Ron Weasley->Hermione Granger->Draco Malfoy->Slytherin->Hogwarts,schoolmate->schoolmate->schoolmate->schoolmate->house->belongs to
+Harry Potter->Dean Thomas->Ron Weasley->Hermione Granger->Cho Chang,schoolmate->schoolmate->schoolmate->schoolmate
+Harry Potter->Dean Thomas->Ron Weasley->Hermione Granger->Padma Patil,schoolmate->schoolmate->schoolmate->schoolmate
+Harry Potter->Dean Thomas->Ron Weasley->Hermione Granger->Padma Patil->Hogwarts,schoolmate->schoolmate->schoolmate->schoolmate->studied at
+Harry Potter->Dean Thomas->Ron Weasley->Hermione Granger->Padma Patil->Gryffindor,schoolmate->schoolmate->schoolmate->schoolmate->house
+Harry Potter->Dean Thomas->Ron Weasley->Hermione Granger->Padma Patil->Gryffindor->Hogwarts,schoolmate->schoolmate->schoolmate->schoolmate->house->belongs to
+Harry Potter->Dean Thomas->Ron Weasley->Hermione Granger->Padma Patil->Ravenclaw,schoolmate->schoolmate->schoolmate->schoolmate->house
+Harry Potter->Dean Thomas->Ron Weasley->Hermione Granger->Padma Patil->Ravenclaw->Hogwarts,schoolmate->schoolmate->schoolmate->schoolmate->house->belongs to
+Harry Potter->Dean Thomas->Ron Weasley->Hermione Granger->Padma Patil->Parvati Patil,schoolmate->schoolmate->schoolmate->schoolmate->schoolmate
+Harry Potter->Dean Thomas->Ron Weasley->Hermione Granger->Padma Patil->Parvati Patil->Gryffindor,schoolmate->schoolmate->schoolmate->schoolmate->schoolmate->house
+Harry Potter->Dean Thomas->Ron Weasley->Hermione Granger->Padma Patil->Parvati Patil->Gryffindor->Hogwarts,schoolmate->schoolmate->schoolmate->schoolmate->schoolmate->house->belongs to
+Harry Potter->Dean Thomas->Ron Weasley->Hermione Granger->Luna Lovegood,schoolmate->schoolmate->schoolmate->schoolmate
+Harry Potter->Dean Thomas->Ron Weasley->Hermione Granger->Luna Lovegood->Hogwarts,schoolmate->schoolmate->schoolmate->schoolmate->studied at
+Harry Potter->Dean Thomas->Ron Weasley->Hermione Granger->Gryffindor,schoolmate->schoolmate->schoolmate->house
+Harry Potter->Dean Thomas->Ron Weasley->Hermione Granger->Gryffindor->Hogwarts,schoolmate->schoolmate->schoolmate->house->belongs to
+Harry Potter->Dean Thomas->Hermione Granger,schoolmate->schoolmate
+Harry Potter->Dean Thomas->Hermione Granger->Hogwarts,schoolmate->schoolmate->studied at
+Harry Potter->Dean Thomas->Hermione Granger->Ron Weasley,schoolmate->schoolmate->schoolmate
+Harry Potter->Dean Thomas->Hermione Granger->Ron Weasley->Hogwarts,schoolmate->schoolmate->schoolmate->studied at
+Harry Potter->Dean Thomas->Hermione Granger->Ron Weasley->Gryffindor,schoolmate->schoolmate->schoolmate->house
+Harry Potter->Dean Thomas->Hermione Granger->Ron Weasley->Gryffindor->Hogwarts,schoolmate->schoolmate->schoolmate->house->belongs to
+Harry Potter->Dean Thomas->Hermione Granger->Ginny Weasley,schoolmate->schoolmate->schoolmate
+Harry Potter->Dean Thomas->Hermione Granger->Ginny Weasley->Hogwarts,schoolmate->schoolmate->schoolmate->studied at
+Harry Potter->Dean Thomas->Hermione Granger->Ginny Weasley->Gryffindor,schoolmate->schoolmate->schoolmate->house
+Harry Potter->Dean Thomas->Hermione Granger->Ginny Weasley->Gryffindor->Hogwarts,schoolmate->schoolmate->schoolmate->house->belongs to
+Harry Potter->Dean Thomas->Hermione Granger->Seamus Finnigan,schoolmate->schoolmate->schoolmate
+Harry Potter->Dean Thomas->Hermione Granger->Seamus Finnigan->Hogwarts,schoolmate->schoolmate->schoolmate->studied at
+Harry Potter->Dean Thomas->Hermione Granger->Seamus Finnigan->Gryffindor,schoolmate->schoolmate->schoolmate->house
+Harry Potter->Dean Thomas->Hermione Granger->Seamus Finnigan->Gryffindor->Hogwarts,schoolmate->schoolmate->schoolmate->house->belongs to
+Harry Potter->Dean Thomas->Hermione Granger->Neville Longbottom,schoolmate->schoolmate->schoolmate
+Harry Potter->Dean Thomas->Hermione Granger->Neville Longbottom->Hogwarts,schoolmate->schoolmate->schoolmate->studied at
+Harry Potter->Dean Thomas->Hermione Granger->Neville Longbottom->Gryffindor,schoolmate->schoolmate->schoolmate->house
+Harry Potter->Dean Thomas->Hermione Granger->Neville Longbottom->Gryffindor->Hogwarts,schoolmate->schoolmate->schoolmate->house->belongs to
+Harry Potter->Dean Thomas->Hermione Granger->Draco Malfoy,schoolmate->schoolmate->schoolmate
+Harry Potter->Dean Thomas->Hermione Granger->Draco Malfoy->Hogwarts,schoolmate->schoolmate->schoolmate->studied at
+Harry Potter->Dean Thomas->Hermione Granger->Draco Malfoy->Slytherin,schoolmate->schoolmate->schoolmate->house
+Harry Potter->Dean Thomas->Hermione Granger->Draco Malfoy->Slytherin->Hogwarts,schoolmate->schoolmate->schoolmate->house->belongs to
+Harry Potter->Dean Thomas->Hermione Granger->Cho Chang,schoolmate->schoolmate->schoolmate
+Harry Potter->Dean Thomas->Hermione Granger->Padma Patil,schoolmate->schoolmate->schoolmate
+Harry Potter->Dean Thomas->Hermione Granger->Padma Patil->Hogwarts,schoolmate->schoolmate->schoolmate->studied at
+Harry Potter->Dean Thomas->Hermione Granger->Padma Patil->Gryffindor,schoolmate->schoolmate->schoolmate->house
+Harry Potter->Dean Thomas->Hermione Granger->Padma Patil->Gryffindor->Hogwarts,schoolmate->schoolmate->schoolmate->house->belongs to
+Harry Potter->Dean Thomas->Hermione Granger->Padma Patil->Ravenclaw,schoolmate->schoolmate->schoolmate->house
+Harry Potter->Dean Thomas->Hermione Granger->Padma Patil->Ravenclaw->Hogwarts,schoolmate->schoolmate->schoolmate->house->belongs to
+Harry Potter->Dean Thomas->Hermione Granger->Padma Patil->Parvati Patil,schoolmate->schoolmate->schoolmate->schoolmate
+Harry Potter->Dean Thomas->Hermione Granger->Padma Patil->Parvati Patil->Gryffindor,schoolmate->schoolmate->schoolmate->schoolmate->house
+Harry Potter->Dean Thomas->Hermione Granger->Padma Patil->Parvati Patil->Gryffindor->Hogwarts,schoolmate->schoolmate->schoolmate->schoolmate->house->belongs to
+Harry Potter->Dean Thomas->Hermione Granger->Luna Lovegood,schoolmate->schoolmate->schoolmate
+Harry Potter->Dean Thomas->Hermione Granger->Luna Lovegood->Hogwarts,schoolmate->schoolmate->schoolmate->studied at
+Harry Potter->Dean Thomas->Hermione Granger->Gryffindor,schoolmate->schoolmate->house
+Harry Potter->Dean Thomas->Hermione Granger->Gryffindor->Hogwarts,schoolmate->schoolmate->house->belongs to
+Harry Potter->Neville Longbottom->Gryffindor->Hogwarts,schoolmate->house->belongs to
+Harry Potter->Draco Malfoy->Slytherin,schoolmate->house
+Harry Potter->Draco Malfoy->Slytherin->Hogwarts,schoolmate->house->belongs to
+Harry Potter->Pansy Parkinson->Slytherin->Hogwarts,schoolmate->house->belongs to
+Harry Potter->Pansy Parkinson->Draco Malfoy,schoolmate->schoolmate
+Harry Potter->Pansy Parkinson->Draco Malfoy->Hogwarts,schoolmate->schoolmate->studied at
+Harry Potter->Pansy Parkinson->Draco Malfoy->Slytherin,schoolmate->schoolmate->house
+Harry Potter->Pansy Parkinson->Draco Malfoy->Slytherin->Hogwarts,schoolmate->schoolmate->house->belongs to
+Harry Potter->Cedric Diggory->Gryffindor->Hogwarts,schoolmate->house->belongs to
+Harry Potter->Fred Weasley->Gryffindor,schoolmate->house
+Harry Potter->Fred Weasley->Gryffindor->Hogwarts,schoolmate->house->belongs to
+Harry Potter->George Weasley->Gryffindor,schoolmate->house
+Harry Potter->George Weasley->Gryffindor->Hogwarts,schoolmate->house->belongs to
+Harry Potter->George Weasley->Gryffindor house,schoolmate->house
+Harry Potter->Padma Patil->Gryffindor->Hogwarts,schoolmate->house->belongs to
+Harry Potter->Padma Patil->Ravenclaw,schoolmate->house
+Harry Potter->Padma Patil->Ravenclaw->Hogwarts,schoolmate->house->belongs to
+Harry Potter->Padma Patil->Parvati Patil,schoolmate->schoolmate
+Harry Potter->Padma Patil->Parvati Patil->Gryffindor,schoolmate->schoolmate->house
+Harry Potter->Padma Patil->Parvati Patil->Gryffindor->Hogwarts,schoolmate->schoolmate->house->belongs to
+Harry Potter->Susan Bones->Gryffindor,schoolmate->house
+Harry Potter->Susan Bones->Gryffindor->Hogwarts,schoolmate->house->belongs to
+Harry Potter->Zacharias Smith->Hufflepuff->Hogwarts,schoolmate->house->belongs to
+Harry Potter->Zacharias Smith->Cedric Diggory,schoolmate->schoolmate
+Harry Potter->Zacharias Smith->Cedric Diggory->Hogwarts,schoolmate->schoolmate->studied at
+Harry Potter->Zacharias Smith->Cedric Diggory->Gryffindor,schoolmate->schoolmate->house
+Harry Potter->Zacharias Smith->Cedric Diggory->Gryffindor->Hogwarts,schoolmate->schoolmate->house->belongs to
+Harry Potter->Gryffindor->Hogwarts,house->belongs to
+Ron Weasley->Gryffindor->Hogwarts,house->belongs to
+Ron Weasley->Hermione Granger->Hogwarts,schoolmate->studied at
+Ron Weasley->Hermione Granger->Ginny Weasley,schoolmate->schoolmate
+Ron Weasley->Hermione Granger->Ginny Weasley->Hogwarts,schoolmate->schoolmate->studied at
+Ron Weasley->Hermione Granger->Ginny Weasley->Gryffindor,schoolmate->schoolmate->house
+Ron Weasley->Hermione Granger->Ginny Weasley->Gryffindor->Hogwarts,schoolmate->schoolmate->house->belongs to
+Ron Weasley->Hermione Granger->Seamus Finnigan,schoolmate->schoolmate
+Ron Weasley->Hermione Granger->Seamus Finnigan->Hogwarts,schoolmate->schoolmate->studied at
+Ron Weasley->Hermione Granger->Seamus Finnigan->Gryffindor,schoolmate->schoolmate->house
+Ron Weasley->Hermione Granger->Seamus Finnigan->Gryffindor->Hogwarts,schoolmate->schoolmate->house->belongs to
+Ron Weasley->Hermione Granger->Neville Longbottom,schoolmate->schoolmate
+Ron Weasley->Hermione Granger->Neville Longbottom->Hogwarts,schoolmate->schoolmate->studied at
+Ron Weasley->Hermione Granger->Neville Longbottom->Gryffindor,schoolmate->schoolmate->house
+Ron Weasley->Hermione Granger->Neville Longbottom->Gryffindor->Hogwarts,schoolmate->schoolmate->house->belongs to
+Ron Weasley->Hermione Granger->Draco Malfoy,schoolmate->schoolmate
+Ron Weasley->Hermione Granger->Draco Malfoy->Hogwarts,schoolmate->schoolmate->studied at
+Ron Weasley->Hermione Granger->Draco Malfoy->Slytherin,schoolmate->schoolmate->house
+Ron Weasley->Hermione Granger->Draco Malfoy->Slytherin->Hogwarts,schoolmate->schoolmate->house->belongs to
+Ron Weasley->Hermione Granger->Cho Chang,schoolmate->schoolmate
+Ron Weasley->Hermione Granger->Padma Patil,schoolmate->schoolmate
+Ron Weasley->Hermione Granger->Padma Patil->Hogwarts,schoolmate->schoolmate->studied at
+Ron Weasley->Hermione Granger->Padma Patil->Gryffindor,schoolmate->schoolmate->house
+Ron Weasley->Hermione Granger->Padma Patil->Gryffindor->Hogwarts,schoolmate->schoolmate->house->belongs to
+Ron Weasley->Hermione Granger->Padma Patil->Ravenclaw,schoolmate->schoolmate->house
+Ron Weasley->Hermione Granger->Padma Patil->Ravenclaw->Hogwarts,schoolmate->schoolmate->house->belongs to
+Ron Weasley->Hermione Granger->Padma Patil->Parvati Patil,schoolmate->schoolmate->schoolmate
+Ron Weasley->Hermione Granger->Padma Patil->Parvati Patil->Gryffindor,schoolmate->schoolmate->schoolmate->house
+Ron Weasley->Hermione Granger->Padma Patil->Parvati Patil->Gryffindor->Hogwarts,schoolmate->schoolmate->schoolmate->house->belongs to
+Ron Weasley->Hermione Granger->Luna Lovegood,schoolmate->schoolmate
+Ron Weasley->Hermione Granger->Luna Lovegood->Hogwarts,schoolmate->schoolmate->studied at
+Ron Weasley->Hermione Granger->Gryffindor,schoolmate->house
+Ron Weasley->Hermione Granger->Gryffindor->Hogwarts,schoolmate->house->belongs to
+Hermione Granger->Ron Weasley->Gryffindor,schoolmate->house
+Hermione Granger->Ron Weasley->Gryffindor->Hogwarts,schoolmate->house->belongs to
+Hermione Granger->Ginny Weasley->Hogwarts,schoolmate->studied at
+Hermione Granger->Ginny Weasley->Gryffindor,schoolmate->house
+Hermione Granger->Ginny Weasley->Gryffindor->Hogwarts,schoolmate->house->belongs to
+Hermione Granger->Seamus Finnigan->Hogwarts,schoolmate->studied at
+Hermione Granger->Seamus Finnigan->Gryffindor,schoolmate->house
+Hermione Granger->Seamus Finnigan->Gryffindor->Hogwarts,schoolmate->house->belongs to
+Hermione Granger->Neville Longbottom->Hogwarts,schoolmate->studied at
+Hermione Granger->Neville Longbottom->Gryffindor,schoolmate->house
+Hermione Granger->Neville Longbottom->Gryffindor->Hogwarts,schoolmate->house->belongs to
+Hermione Granger->Draco Malfoy->Hogwarts,schoolmate->studied at
+Hermione Granger->Draco Malfoy->Slytherin,schoolmate->house
+Hermione Granger->Draco Malfoy->Slytherin->Hogwarts,schoolmate->house->belongs to
+Hermione Granger->Padma Patil->Hogwarts,schoolmate->studied at
+Hermione Granger->Padma Patil->Gryffindor,schoolmate->house
+Hermione Granger->Padma Patil->Gryffindor->Hogwarts,schoolmate->house->belongs to
+Hermione Granger->Padma Patil->Ravenclaw,schoolmate->house
+Hermione Granger->Padma Patil->Ravenclaw->Hogwarts,schoolmate->house->belongs to
+Hermione Granger->Padma Patil->Parvati Patil,schoolmate->schoolmate
+Hermione Granger->Padma Patil->Parvati Patil->Gryffindor,schoolmate->schoolmate->house
+Hermione Granger->Padma Patil->Parvati Patil->Gryffindor->Hogwarts,schoolmate->schoolmate->house->belongs to
+Hermione Granger->Luna Lovegood->Hogwarts,schoolmate->studied at
+Hermione Granger->Gryffindor->Hogwarts,house->belongs to
+Ginny Weasley->Gryffindor->Hogwarts,house->belongs to
+Seamus Finnigan->Gryffindor->Hogwarts,house->belongs to
+Dean Thomas->Gryffindor->Hogwarts,house->belongs to
+Dean Thomas->Harry Potter->Hogwarts,schoolmate->studied at
+Dean Thomas->Harry Potter->Ron Weasley,schoolmate->schoolmate
+Dean Thomas->Harry Potter->Ron Weasley->Hogwarts,schoolmate->schoolmate->studied at
+Dean Thomas->Harry Potter->Ron Weasley->Gryffindor,schoolmate->schoolmate->house
+Dean Thomas->Harry Potter->Ron Weasley->Gryffindor->Hogwarts,schoolmate->schoolmate->house->belongs to
+Dean Thomas->Harry Potter->Ron Weasley->Hermione Granger,schoolmate->schoolmate->schoolmate
+Dean Thomas->Harry Potter->Ron Weasley->Hermione Granger->Hogwarts,schoolmate->schoolmate->schoolmate->studied at
+Dean Thomas->Harry Potter->Ron Weasley->Hermione Granger->Ginny Weasley,schoolmate->schoolmate->schoolmate->schoolmate
+Dean Thomas->Harry Potter->Ron Weasley->Hermione Granger->Ginny Weasley->Hogwarts,schoolmate->schoolmate->schoolmate->schoolmate->studied at
+Dean Thomas->Harry Potter->Ron Weasley->Hermione Granger->Ginny Weasley->Gryffindor,schoolmate->schoolmate->schoolmate->schoolmate->house
+Dean Thomas->Harry Potter->Ron Weasley->Hermione Granger->Ginny Weasley->Gryffindor->Hogwarts,schoolmate->schoolmate->schoolmate->schoolmate->house->belongs to
+Dean Thomas->Harry Potter->Ron Weasley->Hermione Granger->Seamus Finnigan,schoolmate->schoolmate->schoolmate->schoolmate
+Dean Thomas->Harry Potter->Ron Weasley->Hermione Granger->Seamus Finnigan->Hogwarts,schoolmate->schoolmate->schoolmate->schoolmate->studied at
+Dean Thomas->Harry Potter->Ron Weasley->Hermione Granger->Seamus Finnigan->Gryffindor,schoolmate->schoolmate->schoolmate->schoolmate->house
+Dean Thomas->Harry Potter->Ron Weasley->Hermione Granger->Seamus Finnigan->Gryffindor->Hogwarts,schoolmate->schoolmate->schoolmate->schoolmate->house->belongs to
+Dean Thomas->Harry Potter->Ron Weasley->Hermione Granger->Neville Longbottom,schoolmate->schoolmate->schoolmate->schoolmate
+Dean Thomas->Harry Potter->Ron Weasley->Hermione Granger->Neville Longbottom->Hogwarts,schoolmate->schoolmate->schoolmate->schoolmate->studied at
+Dean Thomas->Harry Potter->Ron Weasley->Hermione Granger->Neville Longbottom->Gryffindor,schoolmate->schoolmate->schoolmate->schoolmate->house
+Dean Thomas->Harry Potter->Ron Weasley->Hermione Granger->Neville Longbottom->Gryffindor->Hogwarts,schoolmate->schoolmate->schoolmate->schoolmate->house->belongs to
+Dean Thomas->Harry Potter->Ron Weasley->Hermione Granger->Draco Malfoy,schoolmate->schoolmate->schoolmate->schoolmate
+Dean Thomas->Harry Potter->Ron Weasley->Hermione Granger->Draco Malfoy->Hogwarts,schoolmate->schoolmate->schoolmate->schoolmate->studied at
+Dean Thomas->Harry Potter->Ron Weasley->Hermione Granger->Draco Malfoy->Slytherin,schoolmate->schoolmate->schoolmate->schoolmate->house
+Dean Thomas->Harry Potter->Ron Weasley->Hermione Granger->Draco Malfoy->Slytherin->Hogwarts,schoolmate->schoolmate->schoolmate->schoolmate->house->belongs to
+Dean Thomas->Harry Potter->Ron Weasley->Hermione Granger->Cho Chang,schoolmate->schoolmate->schoolmate->schoolmate
+Dean Thomas->Harry Potter->Ron Weasley->Hermione Granger->Padma Patil,schoolmate->schoolmate->schoolmate->schoolmate
+Dean Thomas->Harry Potter->Ron Weasley->Hermione Granger->Padma Patil->Hogwarts,schoolmate->schoolmate->schoolmate->schoolmate->studied at
+Dean Thomas->Harry Potter->Ron Weasley->Hermione Granger->Padma Patil->Gryffindor,schoolmate->schoolmate->schoolmate->schoolmate->house
+Dean Thomas->Harry Potter->Ron Weasley->Hermione Granger->Padma Patil->Gryffindor->Hogwarts,schoolmate->schoolmate->schoolmate->schoolmate->house->belongs to
+Dean Thomas->Harry Potter->Ron Weasley->Hermione Granger->Padma Patil->Ravenclaw,schoolmate->schoolmate->schoolmate->schoolmate->house
+Dean Thomas->Harry Potter->Ron Weasley->Hermione Granger->Padma Patil->Ravenclaw->Hogwarts,schoolmate->schoolmate->schoolmate->schoolmate->house->belongs to
+Dean Thomas->Harry Potter->Ron Weasley->Hermione Granger->Padma Patil->Parvati Patil,schoolmate->schoolmate->schoolmate->schoolmate->schoolmate
+Dean Thomas->Harry Potter->Ron Weasley->Hermione Granger->Padma Patil->Parvati Patil->Gryffindor,schoolmate->schoolmate->schoolmate->schoolmate->schoolmate->house
+Dean Thomas->Harry Potter->Ron Weasley->Hermione Granger->Padma Patil->Parvati Patil->Gryffindor->Hogwarts,schoolmate->schoolmate->schoolmate->schoolmate->schoolmate->house->belongs to
+Dean Thomas->Harry Potter->Ron Weasley->Hermione Granger->Luna Lovegood,schoolmate->schoolmate->schoolmate->schoolmate
+Dean Thomas->Harry Potter->Ron Weasley->Hermione Granger->Luna Lovegood->Hogwarts,schoolmate->schoolmate->schoolmate->schoolmate->studied at
+Dean Thomas->Harry Potter->Ron Weasley->Hermione Granger->Gryffindor,schoolmate->schoolmate->schoolmate->house
+Dean Thomas->Harry Potter->Ron Weasley->Hermione Granger->Gryffindor->Hogwarts,schoolmate->schoolmate->schoolmate->house->belongs to
+Dean Thomas->Harry Potter->Hermione Granger,schoolmate->schoolmate
+Dean Thomas->Harry Potter->Hermione Granger->Hogwarts,schoolmate->schoolmate->studied at
+Dean Thomas->Harry Potter->Hermione Granger->Ron Weasley,schoolmate->schoolmate->schoolmate
+Dean Thomas->Harry Potter->Hermione Granger->Ron Weasley->Hogwarts,schoolmate->schoolmate->schoolmate->studied at
+Dean Thomas->Harry Potter->Hermione Granger->Ron Weasley->Gryffindor,schoolmate->schoolmate->schoolmate->house
+Dean Thomas->Harry Potter->Hermione Granger->Ron Weasley->Gryffindor->Hogwarts,schoolmate->schoolmate->schoolmate->house->belongs to
+Dean Thomas->Harry Potter->Hermione Granger->Ginny Weasley,schoolmate->schoolmate->schoolmate
+Dean Thomas->Harry Potter->Hermione Granger->Ginny Weasley->Hogwarts,schoolmate->schoolmate->schoolmate->studied at
+Dean Thomas->Harry Potter->Hermione Granger->Ginny Weasley->Gryffindor,schoolmate->schoolmate->schoolmate->house
+Dean Thomas->Harry Potter->Hermione Granger->Ginny Weasley->Gryffindor->Hogwarts,schoolmate->schoolmate->schoolmate->house->belongs to
+Dean Thomas->Harry Potter->Hermione Granger->Seamus Finnigan,schoolmate->schoolmate->schoolmate
+Dean Thomas->Harry Potter->Hermione Granger->Seamus Finnigan->Hogwarts,schoolmate->schoolmate->schoolmate->studied at
+Dean Thomas->Harry Potter->Hermione Granger->Seamus Finnigan->Gryffindor,schoolmate->schoolmate->schoolmate->house
+Dean Thomas->Harry Potter->Hermione Granger->Seamus Finnigan->Gryffindor->Hogwarts,schoolmate->schoolmate->schoolmate->house->belongs to
+Dean Thomas->Harry Potter->Hermione Granger->Neville Longbottom,schoolmate->schoolmate->schoolmate
+Dean Thomas->Harry Potter->Hermione Granger->Neville Longbottom->Hogwarts,schoolmate->schoolmate->schoolmate->studied at
+Dean Thomas->Harry Potter->Hermione Granger->Neville Longbottom->Gryffindor,schoolmate->schoolmate->schoolmate->house
+Dean Thomas->Harry Potter->Hermione Granger->Neville Longbottom->Gryffindor->Hogwarts,schoolmate->schoolmate->schoolmate->house->belongs to
+Dean Thomas->Harry Potter->Hermione Granger->Draco Malfoy,schoolmate->schoolmate->schoolmate
+Dean Thomas->Harry Potter->Hermione Granger->Draco Malfoy->Hogwarts,schoolmate->schoolmate->schoolmate->studied at
+Dean Thomas->Harry Potter->Hermione Granger->Draco Malfoy->Slytherin,schoolmate->schoolmate->schoolmate->house
+Dean Thomas->Harry Potter->Hermione Granger->Draco Malfoy->Slytherin->Hogwarts,schoolmate->schoolmate->schoolmate->house->belongs to
+Dean Thomas->Harry Potter->Hermione Granger->Cho Chang,schoolmate->schoolmate->schoolmate
+Dean Thomas->Harry Potter->Hermione Granger->Padma Patil,schoolmate->schoolmate->schoolmate
+Dean Thomas->Harry Potter->Hermione Granger->Padma Patil->Hogwarts,schoolmate->schoolmate->schoolmate->studied at
+Dean Thomas->Harry Potter->Hermione Granger->Padma Patil->Gryffindor,schoolmate->schoolmate->schoolmate->house
+Dean Thomas->Harry Potter->Hermione Granger->Padma Patil->Gryffindor->Hogwarts,schoolmate->schoolmate->schoolmate->house->belongs to
+Dean Thomas->Harry Potter->Hermione Granger->Padma Patil->Ravenclaw,schoolmate->schoolmate->schoolmate->house
+Dean Thomas->Harry Potter->Hermione Granger->Padma Patil->Ravenclaw->Hogwarts,schoolmate->schoolmate->schoolmate->house->belongs to
+Dean Thomas->Harry Potter->Hermione Granger->Padma Patil->Parvati Patil,schoolmate->schoolmate->schoolmate->schoolmate
+Dean Thomas->Harry Potter->Hermione Granger->Padma Patil->Parvati Patil->Gryffindor,schoolmate->schoolmate->schoolmate->schoolmate->house
+Dean Thomas->Harry Potter->Hermione Granger->Padma Patil->Parvati Patil->Gryffindor->Hogwarts,schoolmate->schoolmate->schoolmate->schoolmate->house->belongs to
+Dean Thomas->Harry Potter->Hermione Granger->Luna Lovegood,schoolmate->schoolmate->schoolmate
+Dean Thomas->Harry Potter->Hermione Granger->Luna Lovegood->Hogwarts,schoolmate->schoolmate->schoolmate->studied at
+Dean Thomas->Harry Potter->Hermione Granger->Gryffindor,schoolmate->schoolmate->house
+Dean Thomas->Harry Potter->Hermione Granger->Gryffindor->Hogwarts,schoolmate->schoolmate->house->belongs to
+Dean Thomas->Harry Potter->Ginny Weasley,schoolmate->schoolmate
+Dean Thomas->Harry Potter->Ginny Weasley->Hogwarts,schoolmate->schoolmate->studied at
+Dean Thomas->Harry Potter->Ginny Weasley->Gryffindor,schoolmate->schoolmate->house
+Dean Thomas->Harry Potter->Ginny Weasley->Gryffindor->Hogwarts,schoolmate->schoolmate->house->belongs to
+Dean Thomas->Harry Potter->Seamus Finnigan,schoolmate->schoolmate
+Dean Thomas->Harry Potter->Seamus Finnigan->Hogwarts,schoolmate->schoolmate->studied at
+Dean Thomas->Harry Potter->Seamus Finnigan->Gryffindor,schoolmate->schoolmate->house
+Dean Thomas->Harry Potter->Seamus Finnigan->Gryffindor->Hogwarts,schoolmate->schoolmate->house->belongs to
+Dean Thomas->Harry Potter->Neville Longbottom,schoolmate->schoolmate
+Dean Thomas->Harry Potter->Neville Longbottom->Hogwarts,schoolmate->schoolmate->studied at
+Dean Thomas->Harry Potter->Neville Longbottom->Gryffindor,schoolmate->schoolmate->house
+Dean Thomas->Harry Potter->Neville Longbottom->Gryffindor->Hogwarts,schoolmate->schoolmate->house->belongs to
+Dean Thomas->Harry Potter->Luna Lovegood,schoolmate->schoolmate
+Dean Thomas->Harry Potter->Luna Lovegood->Hogwarts,schoolmate->schoolmate->studied at
+Dean Thomas->Harry Potter->Draco Malfoy,schoolmate->schoolmate
+Dean Thomas->Harry Potter->Draco Malfoy->Hogwarts,schoolmate->schoolmate->studied at
+Dean Thomas->Harry Potter->Draco Malfoy->Slytherin,schoolmate->schoolmate->house
+Dean Thomas->Harry Potter->Draco Malfoy->Slytherin->Hogwarts,schoolmate->schoolmate->house->belongs to
+Dean Thomas->Harry Potter->Pansy Parkinson,schoolmate->schoolmate
+Dean Thomas->Harry Potter->Pansy Parkinson->Hogwarts,schoolmate->schoolmate->studied at
+Dean Thomas->Harry Potter->Pansy Parkinson->Slytherin,schoolmate->schoolmate->house
+Dean Thomas->Harry Potter->Pansy Parkinson->Slytherin->Hogwarts,schoolmate->schoolmate->house->belongs to
+Dean Thomas->Harry Potter->Pansy Parkinson->Draco Malfoy,schoolmate->schoolmate->schoolmate
+Dean Thomas->Harry Potter->Pansy Parkinson->Draco Malfoy->Hogwarts,schoolmate->schoolmate->schoolmate->studied at
+Dean Thomas->Harry Potter->Pansy Parkinson->Draco Malfoy->Slytherin,schoolmate->schoolmate->schoolmate->house
+Dean Thomas->Harry Potter->Pansy Parkinson->Draco Malfoy->Slytherin->Hogwarts,schoolmate->schoolmate->schoolmate->house->belongs to
+Dean Thomas->Harry Potter->Cedric Diggory,schoolmate->schoolmate
+Dean Thomas->Harry Potter->Cedric Diggory->Hogwarts,schoolmate->schoolmate->studied at
+Dean Thomas->Harry Potter->Cedric Diggory->Gryffindor,schoolmate->schoolmate->house
+Dean Thomas->Harry Potter->Cedric Diggory->Gryffindor->Hogwarts,schoolmate->schoolmate->house->belongs to
+Dean Thomas->Harry Potter->Fred Weasley,schoolmate->schoolmate
+Dean Thomas->Harry Potter->Fred Weasley->Hogwarts,schoolmate->schoolmate->studied at
+Dean Thomas->Harry Potter->Fred Weasley->Gryffindor,schoolmate->schoolmate->house
+Dean Thomas->Harry Potter->Fred Weasley->Gryffindor->Hogwarts,schoolmate->schoolmate->house->belongs to
+Dean Thomas->Harry Potter->George Weasley,schoolmate->schoolmate
+Dean Thomas->Harry Potter->George Weasley->Hogwarts,schoolmate->schoolmate->studied at
+Dean Thomas->Harry Potter->George Weasley->Gryffindor,schoolmate->schoolmate->house
+Dean Thomas->Harry Potter->George Weasley->Gryffindor->Hogwarts,schoolmate->schoolmate->house->belongs to
+Dean Thomas->Harry Potter->George Weasley->Gryffindor house,schoolmate->schoolmate->house
+Dean Thomas->Harry Potter->Padma Patil,schoolmate->schoolmate
+Dean Thomas->Harry Potter->Padma Patil->Hogwarts,schoolmate->schoolmate->studied at
+Dean Thomas->Harry Potter->Padma Patil->Gryffindor,schoolmate->schoolmate->house
+Dean Thomas->Harry Potter->Padma Patil->Gryffindor->Hogwarts,schoolmate->schoolmate->house->belongs to
+Dean Thomas->Harry Potter->Padma Patil->Ravenclaw,schoolmate->schoolmate->house
+Dean Thomas->Harry Potter->Padma Patil->Ravenclaw->Hogwarts,schoolmate->schoolmate->house->belongs to
+Dean Thomas->Harry Potter->Padma Patil->Parvati Patil,schoolmate->schoolmate->schoolmate
+Dean Thomas->Harry Potter->Padma Patil->Parvati Patil->Gryffindor,schoolmate->schoolmate->schoolmate->house
+Dean Thomas->Harry Potter->Padma Patil->Parvati Patil->Gryffindor->Hogwarts,schoolmate->schoolmate->schoolmate->house->belongs to
+Dean Thomas->Harry Potter->Susan Bones,schoolmate->schoolmate
+Dean Thomas->Harry Potter->Susan Bones->Hogwarts,schoolmate->schoolmate->studied at
+Dean Thomas->Harry Potter->Susan Bones->Gryffindor,schoolmate->schoolmate->house
+Dean Thomas->Harry Potter->Susan Bones->Gryffindor->Hogwarts,schoolmate->schoolmate->house->belongs to
+Dean Thomas->Harry Potter->Zacharias Smith,schoolmate->schoolmate
+Dean Thomas->Harry Potter->Zacharias Smith->Hogwarts,schoolmate->schoolmate->studied at
+Dean Thomas->Harry Potter->Zacharias Smith->Hufflepuff,schoolmate->schoolmate->house
+Dean Thomas->Harry Potter->Zacharias Smith->Hufflepuff->Hogwarts,schoolmate->schoolmate->house->belongs to
+Dean Thomas->Harry Potter->Zacharias Smith->Cedric Diggory,schoolmate->schoolmate->schoolmate
+Dean Thomas->Harry Potter->Zacharias Smith->Cedric Diggory->Hogwarts,schoolmate->schoolmate->schoolmate->studied at
+Dean Thomas->Harry Potter->Zacharias Smith->Cedric Diggory->Gryffindor,schoolmate->schoolmate->schoolmate->house
+Dean Thomas->Harry Potter->Zacharias Smith->Cedric Diggory->Gryffindor->Hogwarts,schoolmate->schoolmate->schoolmate->house->belongs to
+Dean Thomas->Harry Potter->Gryffindor,schoolmate->house
+Dean Thomas->Harry Potter->Gryffindor->Hogwarts,schoolmate->house->belongs to
+Dean Thomas->Ron Weasley->Hogwarts,schoolmate->studied at
+Dean Thomas->Ron Weasley->Gryffindor,schoolmate->house
+Dean Thomas->Ron Weasley->Gryffindor->Hogwarts,schoolmate->house->belongs to
+Dean Thomas->Ron Weasley->Hermione Granger,schoolmate->schoolmate
+Dean Thomas->Ron Weasley->Hermione Granger->Hogwarts,schoolmate->schoolmate->studied at
+Dean Thomas->Ron Weasley->Hermione Granger->Ginny Weasley,schoolmate->schoolmate->schoolmate
+Dean Thomas->Ron Weasley->Hermione Granger->Ginny Weasley->Hogwarts,schoolmate->schoolmate->schoolmate->studied at
+Dean Thomas->Ron Weasley->Hermione Granger->Ginny Weasley->Gryffindor,schoolmate->schoolmate->schoolmate->house
+Dean Thomas->Ron Weasley->Hermione Granger->Ginny Weasley->Gryffindor->Hogwarts,schoolmate->schoolmate->schoolmate->house->belongs to
+Dean Thomas->Ron Weasley->Hermione Granger->Seamus Finnigan,schoolmate->schoolmate->schoolmate
+Dean Thomas->Ron Weasley->Hermione Granger->Seamus Finnigan->Hogwarts,schoolmate->schoolmate->schoolmate->studied at
+Dean Thomas->Ron Weasley->Hermione Granger->Seamus Finnigan->Gryffindor,schoolmate->schoolmate->schoolmate->house
+Dean Thomas->Ron Weasley->Hermione Granger->Seamus Finnigan->Gryffindor->Hogwarts,schoolmate->schoolmate->schoolmate->house->belongs to
+Dean Thomas->Ron Weasley->Hermione Granger->Neville Longbottom,schoolmate->schoolmate->schoolmate
+Dean Thomas->Ron Weasley->Hermione Granger->Neville Longbottom->Hogwarts,schoolmate->schoolmate->schoolmate->studied at
+Dean Thomas->Ron Weasley->Hermione Granger->Neville Longbottom->Gryffindor,schoolmate->schoolmate->schoolmate->house
+Dean Thomas->Ron Weasley->Hermione Granger->Neville Longbottom->Gryffindor->Hogwarts,schoolmate->schoolmate->schoolmate->house->belongs to
+Dean Thomas->Ron Weasley->Hermione Granger->Draco Malfoy,schoolmate->schoolmate->schoolmate
+Dean Thomas->Ron Weasley->Hermione Granger->Draco Malfoy->Hogwarts,schoolmate->schoolmate->schoolmate->studied at
+Dean Thomas->Ron Weasley->Hermione Granger->Draco Malfoy->Slytherin,schoolmate->schoolmate->schoolmate->house
+Dean Thomas->Ron Weasley->Hermione Granger->Draco Malfoy->Slytherin->Hogwarts,schoolmate->schoolmate->schoolmate->house->belongs to
+Dean Thomas->Ron Weasley->Hermione Granger->Cho Chang,schoolmate->schoolmate->schoolmate
+Dean Thomas->Ron Weasley->Hermione Granger->Padma Patil,schoolmate->schoolmate->schoolmate
+Dean Thomas->Ron Weasley->Hermione Granger->Padma Patil->Hogwarts,schoolmate->schoolmate->schoolmate->studied at
+Dean Thomas->Ron Weasley->Hermione Granger->Padma Patil->Gryffindor,schoolmate->schoolmate->schoolmate->house
+Dean Thomas->Ron Weasley->Hermione Granger->Padma Patil->Gryffindor->Hogwarts,schoolmate->schoolmate->schoolmate->house->belongs to
+Dean Thomas->Ron Weasley->Hermione Granger->Padma Patil->Ravenclaw,schoolmate->schoolmate->schoolmate->house
+Dean Thomas->Ron Weasley->Hermione Granger->Padma Patil->Ravenclaw->Hogwarts,schoolmate->schoolmate->schoolmate->house->belongs to
+Dean Thomas->Ron Weasley->Hermione Granger->Padma Patil->Parvati Patil,schoolmate->schoolmate->schoolmate->schoolmate
+Dean Thomas->Ron Weasley->Hermione Granger->Padma Patil->Parvati Patil->Gryffindor,schoolmate->schoolmate->schoolmate->schoolmate->house
+Dean Thomas->Ron Weasley->Hermione Granger->Padma Patil->Parvati Patil->Gryffindor->Hogwarts,schoolmate->schoolmate->schoolmate->schoolmate->house->belongs to
+Dean Thomas->Ron Weasley->Hermione Granger->Luna Lovegood,schoolmate->schoolmate->schoolmate
+Dean Thomas->Ron Weasley->Hermione Granger->Luna Lovegood->Hogwarts,schoolmate->schoolmate->schoolmate->studied at
+Dean Thomas->Ron Weasley->Hermione Granger->Gryffindor,schoolmate->schoolmate->house
+Dean Thomas->Ron Weasley->Hermione Granger->Gryffindor->Hogwarts,schoolmate->schoolmate->house->belongs to
+Dean Thomas->Hermione Granger->Hogwarts,schoolmate->studied at
+Dean Thomas->Hermione Granger->Ron Weasley,schoolmate->schoolmate
+Dean Thomas->Hermione Granger->Ron Weasley->Hogwarts,schoolmate->schoolmate->studied at
+Dean Thomas->Hermione Granger->Ron Weasley->Gryffindor,schoolmate->schoolmate->house
+Dean Thomas->Hermione Granger->Ron Weasley->Gryffindor->Hogwarts,schoolmate->schoolmate->house->belongs to
+Dean Thomas->Hermione Granger->Ginny Weasley,schoolmate->schoolmate
+Dean Thomas->Hermione Granger->Ginny Weasley->Hogwarts,schoolmate->schoolmate->studied at
+Dean Thomas->Hermione Granger->Ginny Weasley->Gryffindor,schoolmate->schoolmate->house
+Dean Thomas->Hermione Granger->Ginny Weasley->Gryffindor->Hogwarts,schoolmate->schoolmate->house->belongs to
+Dean Thomas->Hermione Granger->Seamus Finnigan,schoolmate->schoolmate
+Dean Thomas->Hermione Granger->Seamus Finnigan->Hogwarts,schoolmate->schoolmate->studied at
+Dean Thomas->Hermione Granger->Seamus Finnigan->Gryffindor,schoolmate->schoolmate->house
+Dean Thomas->Hermione Granger->Seamus Finnigan->Gryffindor->Hogwarts,schoolmate->schoolmate->house->belongs to
+Dean Thomas->Hermione Granger->Neville Longbottom,schoolmate->schoolmate
+Dean Thomas->Hermione Granger->Neville Longbottom->Hogwarts,schoolmate->schoolmate->studied at
+Dean Thomas->Hermione Granger->Neville Longbottom->Gryffindor,schoolmate->schoolmate->house
+Dean Thomas->Hermione Granger->Neville Longbottom->Gryffindor->Hogwarts,schoolmate->schoolmate->house->belongs to
+Dean Thomas->Hermione Granger->Draco Malfoy,schoolmate->schoolmate
+Dean Thomas->Hermione Granger->Draco Malfoy->Hogwarts,schoolmate->schoolmate->studied at
+Dean Thomas->Hermione Granger->Draco Malfoy->Slytherin,schoolmate->schoolmate->house
+Dean Thomas->Hermione Granger->Draco Malfoy->Slytherin->Hogwarts,schoolmate->schoolmate->house->belongs to
+Dean Thomas->Hermione Granger->Cho Chang,schoolmate->schoolmate
+Dean Thomas->Hermione Granger->Padma Patil,schoolmate->schoolmate
+Dean Thomas->Hermione Granger->Padma Patil->Hogwarts,schoolmate->schoolmate->studied at
+Dean Thomas->Hermione Granger->Padma Patil->Gryffindor,schoolmate->schoolmate->house
+Dean Thomas->Hermione Granger->Padma Patil->Gryffindor->Hogwarts,schoolmate->schoolmate->house->belongs to
+Dean Thomas->Hermione Granger->Padma Patil->Ravenclaw,schoolmate->schoolmate->house
+Dean Thomas->Hermione Granger->Padma Patil->Ravenclaw->Hogwarts,schoolmate->schoolmate->house->belongs to
+Dean Thomas->Hermione Granger->Padma Patil->Parvati Patil,schoolmate->schoolmate->schoolmate
+Dean Thomas->Hermione Granger->Padma Patil->Parvati Patil->Gryffindor,schoolmate->schoolmate->schoolmate->house
+Dean Thomas->Hermione Granger->Padma Patil->Parvati Patil->Gryffindor->Hogwarts,schoolmate->schoolmate->schoolmate->house->belongs to
+Dean Thomas->Hermione Granger->Luna Lovegood,schoolmate->schoolmate
+Dean Thomas->Hermione Granger->Luna Lovegood->Hogwarts,schoolmate->schoolmate->studied at
+Dean Thomas->Hermione Granger->Gryffindor,schoolmate->house
+Dean Thomas->Hermione Granger->Gryffindor->Hogwarts,schoolmate->house->belongs to
+Neville Longbottom->Gryffindor->Hogwarts,house->belongs to
+Draco Malfoy->Slytherin->Hogwarts,house->belongs to
+Pansy Parkinson->Slytherin->Hogwarts,house->belongs to
+Pansy Parkinson->Draco Malfoy->Hogwarts,schoolmate->studied at
+Pansy Parkinson->Draco Malfoy->Slytherin,schoolmate->house
+Pansy Parkinson->Draco Malfoy->Slytherin->Hogwarts,schoolmate->house->belongs to
+Cedric Diggory->Gryffindor->Hogwarts,house->belongs to
+Fred Weasley->Gryffindor->Hogwarts,house->belongs to
+George Weasley->Gryffindor->Hogwarts,house->belongs to
+Padma Patil->Gryffindor->Hogwarts,house->belongs to
+Padma Patil->Ravenclaw->Hogwarts,house->belongs to
+Padma Patil->Parvati Patil->Gryffindor,schoolmate->house
+Padma Patil->Parvati Patil->Gryffindor->Hogwarts,schoolmate->house->belongs to
+Susan Bones->Gryffindor->Hogwarts,house->belongs to
+Zacharias Smith->Hufflepuff->Hogwarts,house->belongs to
+Zacharias Smith->Cedric Diggory->Hogwarts,schoolmate->studied at
+Zacharias Smith->Cedric Diggory->Gryffindor,schoolmate->house
+Zacharias Smith->Cedric Diggory->Gryffindor->Hogwarts,schoolmate->house->belongs to
+Parvati Patil->Gryffindor->Hogwarts,house->belongs to

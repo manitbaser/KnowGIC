@@ -1,0 +1,192 @@
+Bill Weasley:
+  house:
+  - Gryffindor
+Charlie Weasley:
+  house:
+  - Gryffindor
+Dean Thomas:
+  house:
+  - Gryffindor
+  studied at:
+  - Hogwarts
+Draco Malfoy:
+  house:
+  - Slytherin
+  studied at:
+  - Hogwarts
+  was taught Transfiguration by:
+  - McGonagall
+  was taught Care of Magical Creatures by:
+  - Hagrid
+Fred Weasley:
+  house:
+  - Gryffindor
+George Weasley:
+  house:
+  - Gryffindor
+Ginny Weasley:
+  house:
+  - Gryffindor
+  studied at:
+  - Hogwarts
+Gryffindor:
+  belongs to:
+  - Hogwarts
+  head:
+  - McGonagall
+Hagrid:
+  teacher at:
+  - Hogwarts
+Hannah Abbott:
+  studied at:
+  - Hogwarts
+Harry Potter:
+  house:
+  - Gryffindor
+  schoolmate:
+  - Hermione Granger
+  - Ron Weasley
+  - Draco Malfoy
+  - Neville Longbottom
+  - Luna Lovegood
+  - Ginny Weasley
+  - Seamus Finnigan
+  - Dean Thomas
+  - Parvati Patil
+  - Lavender Brown
+  studied at:
+  - Hogwarts
+  was taught Transfiguration by:
+  - McGonagall
+  was taught Care of Magical Creatures by:
+  - Hagrid
+  was taught Defense Against the Dark Arts by:
+  - Snape
+  - Quirrell
+  - Lockhart
+  - Lupin
+  - Moody
+  - Umbridge
+Hermione Granger:
+  house:
+  - Gryffindor
+  studied at:
+  - Hogwarts
+  schoolmate:
+  - Ron Weasley
+  was taught Transfiguration by:
+  - McGonagall
+  was taught Care of Magical Creatures by:
+  - Hagrid
+  was taught Defense Against the Dark Arts by:
+  - Snape
+  - Quirrell
+  - Lockhart
+  - Lupin
+  - Moody
+  - Umbridge
+Hufflepuff:
+  belongs to:
+  - Hogwarts
+  head:
+  - Sprout
+Lavender Brown:
+  house:
+  - Gryffindor
+  studied at:
+  - Hogwarts
+Luna Lovegood:
+  house:
+  - Ravenclaw
+  studied at:
+  - Hogwarts
+  was taught Care of Magical Creatures by:
+  - Hagrid
+  was taught Defense Against the Dark Arts by:
+  - Snape
+  - Quirrell
+  - Lockhart
+  - Lupin
+  - Moody
+  - Umbridge
+McGonagall:
+  head of house:
+  - Gryffindor
+  teacher at:
+  - Hogwarts
+Sprout:
+  head of house:
+  - Hufflepuff
+  teacher at:
+  - Hogwarts
+Neville Longbottom:
+  house:
+  - Gryffindor
+  studied at:
+  - Hogwarts
+Parvati Patil:
+  house:
+  - Gryffindor
+  studied at:
+  - Hogwarts
+Lockhart:
+  teacher at:
+  - Hogwarts
+Lupin:
+  teacher at:
+  - Hogwarts
+Moody:
+  teacher at:
+  - Hogwarts
+Quirrell:
+  teacher at:
+  - Hogwarts
+Umbridge:
+  teacher at:
+  - Hogwarts
+Ravenclaw:
+  belongs to:
+  - Hogwarts
+  head:
+  - Flitwick
+Flitwick:
+  teacher at:
+  - Hogwarts
+  head of house:
+  - Ravenclaw
+Ron Weasley:
+  house:
+  - Gryffindor
+  studied at:
+  - Hogwarts
+  schoolmate:
+  - Hermione Granger
+  was taught Transfiguration by:
+  - McGonagall
+  was taught Care of Magical Creatures by:
+  - Hagrid
+  was taught Defense Against the Dark Arts by:
+  - Snape
+  - Quirrell
+  - Lockhart
+  - Lupin
+  - Moody
+  - Umbridge
+Seamus Finnigan:
+  house:
+  - Gryffindor
+  studied at:
+  - Hogwarts
+Snape:
+  head of house:
+  - Slytherin
+  teacher at:
+  - Hogwarts
+Slytherin:
+  belongs to:
+  - Hogwarts
+  head:
+  - Snape
+Susan Bones:
+  studied at:
+  - Hogwarts
