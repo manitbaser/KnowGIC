@@ -4,6 +4,7 @@ KnowGIC
 (Knowledge Graph Implication Chains), built using the ThinkEval framework, is a benchmark which is used to evaluate deducibility of original facts and
 broader contextual knowledge integrity in model editing. KnowGIC infers connected facts via n-step implication chains, which are n-sequentially linked queries to evaluate these relationships.
 
+Link to ThinkEval paper (TMLR 2026): https://openreview.net/pdf?id=IR2GAw90BB
 
 ### What is broader contextual knowledge?
 Broader contextual knowledge refers to the interconnected web of facts and information related to a specific piece of knowledge. In ThinkEval, it’s about ensuring that when you edit something—like changing Harry Potter’s school from Hogwarts to Ilvermorny—the related facts, like the green solid edges in Fig. 1, stay consistent and don’t lead to errors.
