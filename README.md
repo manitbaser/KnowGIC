@@ -140,3 +140,17 @@ This example shows how **(IFR)** and **(Pres.)** are computed after applying a r
   * 0.5 / 0.85 = 0.51
 
 `Preservation = (0.78 + 0.94 + 0.67 + 0.51) / 4 = 0.725`
+
+# Cite our work
+```
+@article{
+baser2026thinkeval,
+title={ThinkEval: Practical Evaluation of Knowledge Leakage in {LLM} Editing using Thought-based Knowledge Graphs},
+author={Manit Baser and Dinil Mon Divakaran and Mohan Gurusamy},
+journal={Transactions on Machine Learning Research},
+issn={2835-8856},
+year={2026},
+url={https://openreview.net/forum?id=IR2GAw90BB},
+note={}
+}
+```
