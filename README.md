@@ -145,7 +145,7 @@ This example shows how **(IFR)** and **(Pres.)** are computed after applying a r
 ```
 @article{
 baser2026thinkeval,
-title={ThinkEval: Practical Evaluation of Knowledge Leakage in {LLM} Editing using Thought-based Knowledge Graphs},
+title={ThinkEval: Practical Evaluation of Knowledge Leakage in LLM Editing using Thought-based Knowledge Graphs},
 author={Manit Baser and Dinil Mon Divakaran and Mohan Gurusamy},
 journal={Transactions on Machine Learning Research},
 issn={2835-8856},
